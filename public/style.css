@@ -1,0 +1,215 @@
+
+body{
+    margin: 0px;
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(57, 129, 182) ;
+    display: flex ;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.primolivello{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.logo{
+    margin-left: 15px;
+}
+#logo{
+    color: whitesmoke;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}
+
+.access{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttonOne{
+    background-color: whitesmoke;
+    color: black;
+
+}
+.access button{
+    background-color: transparent;
+    padding: 6px 20px;
+    border: 2px solid whitesmoke ;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 12px;
+
+}
+
+.secondolivello{
+    width: 100%;
+}
+.links{
+    width: 96%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.links ul{
+    display: flex;
+    gap: 10px;
+}
+.links li{
+    list-style: none;
+     padding-bottom: 8px;
+    font-size: 14px;
+    text-transform:uppercase ;
+  
+    
+    cursor: pointer;
+}
+.links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.links a:hover{
+    color: blue;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5px;
+}
+
+/* end navbar */
+
+/* header */
+
+.header{
+    height: 77vh;
+    width: 100%;
+    background-image: url(/beckgroun2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.space{
+    height: 5%;
+}
+
+.title h1, h2{
+    text-transform:uppercase ;
+   text-shadow: 1px 1px black;
+    color: whitesmoke;
+
+}
+
+.title h2 {
+    font-size: 15px;
+    text-align: center;
+}
+.box{
+    height: 120px;
+    width: 60%;
+  background-color: rgba(57, 84, 96, 0.411);
+  border: 2px solid transparent;
+  border-radius: 14px ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box input,button{
+    padding: 9px 15px;
+    border-radius: 6px;
+}
+
+.box button{
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.box input:focus{
+    outline: none;
+}
+.box button:hover{
+    transform: scale(0.9);
+}
+
+
+/* end header */
+
+/* footer */
+footer{
+    background-color: rgba(43, 45, 101, 0.411);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+footer li{
+    list-style: none;
+    color: whitesmoke;
+}
+
+/* end HomePage */
+
+/* Pagina1 */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1 {
+    text-align: center;
+
+}
+
+.articles{
+    height: 70vh;
+   
+    width: 90%;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article{
+    height: 90%;
+    width: 20%;
+    border: 3px solid rgba(43, 45, 101, 0.411);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.article img{
+    width: 250px;
+}
+.article h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
